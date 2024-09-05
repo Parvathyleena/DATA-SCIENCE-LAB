@@ -1,8 +1,0 @@
-import matplotlib.pyplot as plt
-import numpy as np
-x=np.array(['walking','Cycle','bus','car','train'])
-y=np.array([10,23,40,12,8])
-plt.bar(x,y,width=1)
-plt.xlabel("Mode of transportation")
-plt.ylabel("Student numbers")
-plt.show()
