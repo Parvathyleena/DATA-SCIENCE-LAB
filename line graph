@@ -1,0 +1,10 @@
+import matplotlib.pyplot as plt
+import numpy as np
+x=np.array([2010,2011,2012,2013,2014,2015,2016])
+y=np.array([50000,48000,45500,40000,37000,33500,28000])
+plt.plot(x,y)
+plt.xlabel("year")
+plt.ylabel("carvalue")
+plt.title("value depreciation")
+plt.plot(x,y,ls="-.",color="red",marker="*",ms="10",mfc="g")
+plt.show()
