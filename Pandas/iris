@@ -27,7 +27,7 @@ plt.style.use("dark_background")
 sns.displot(iris.sepal_length,bins=10, color="g")
 plt.title("Distribution of Sepal Length", fontsize=10, color="white")
 plt.show()
-----------------------OUTPUT----------------------
+--------------------------------------------
 C:\Users\mlm\PycharmProjects\pythonProject1\venv\Scripts\python.exe C:\Users\mlm\PycharmProjects\pythonProject1\iris.py 
 Shape of the Data set : (150, 5)
 First five rows
