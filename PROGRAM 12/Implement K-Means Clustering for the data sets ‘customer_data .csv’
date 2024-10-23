@@ -1,3 +1,9 @@
+Implement K-Means Clustering for the data sets ‘customer_data .csv’
+i. Display scatter plot for visualizing the Annual income and Spending score.
+ii. Using k means clustering create 6 clusters of customers based on their spending pattern. Visualize
+the same in a scatter plot with each cluster in a different color scheme.
+iii. Display cluster indexes for each data point
+--------------------------------------------------------------------------------------------------------
 import pandas as pd
 customers = pd.read_csv('customer_data.csv')
 print(customers.head())
